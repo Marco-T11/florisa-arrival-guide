@@ -374,6 +374,17 @@ strong {
   margin-bottom: 0;
 }
 
+.content-image {
+  margin: 28px 0;
+}
+
+.content-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 2px;
+}
+
 .subsection-title {
   font-family: var(--font-serif);
   font-size: 24px;
