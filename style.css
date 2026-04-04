@@ -385,6 +385,28 @@ strong {
   border-radius: 2px;
 }
 
+.image-pair {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+  margin: 28px 0;
+}
+
+.image-pair .content-image {
+  margin: 0;
+}
+
+.image-pair .content-image img {
+  height: 100%;
+  object-fit: cover;
+}
+
+@media (max-width: 600px) {
+  .image-pair {
+    grid-template-columns: 1fr;
+  }
+}
+
 .subsection-title {
   font-family: var(--font-serif);
   font-size: 24px;
